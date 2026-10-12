@@ -1,0 +1,23 @@
+{
+  "name": "fatma-repository",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static professional portfolio for Fatma Kassim Abdulla — operations, finance and community development. Plain HTML, CSS and vanilla JavaScript with no build step.",
+  "homepage": "",
+  "scripts": {
+    "dev": "http-server . -p 4310 -c-1 -o",
+    "start": "http-server . -p 4310 -c-1 -o",
+    "preview": "http-server . -p 4311 -c-1"
+  },
+  "keywords": [
+    "portfolio",
+    "static-site",
+    "html",
+    "css",
+    "vanilla-javascript"
+  ],
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
